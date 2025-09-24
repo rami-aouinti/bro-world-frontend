@@ -8,8 +8,10 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  middleware: () => navigateTo('/login')
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  navigateTo('/login');
 });
 </script>
 
