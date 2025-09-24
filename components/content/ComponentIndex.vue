@@ -51,8 +51,8 @@
 
 <script setup lang="ts">
 import type { QueryBuilderParams } from "@nuxt/content";
-import InspiraCarbonAds from "./InspiraCarbonAds.vue";
-import {CardSpotlight} from "../inspira/ui/card-spotlight";
+import InspiraCarbonAds from "./common/InspiraCarbonAds.vue";
+import { CardSpotlight } from "./inspira/ui/card-spotlight";
 
 interface Badge {
   type: "default" | "info" | "warning" | "success" | "danger" | "lime" | undefined;
